@@ -22,7 +22,7 @@ RUN python -m venv /py && \
     # Install requirements
     /py/bin/pip install -r /tmp/requirements.txt && \
     # If dev option is set - install dev requirements
-    if [ $DEV = "ture" ] \
+    if [ $DEV = "true" ]; \
       then /py/bin/pip install -r /tmp/requirements.dev.txt ; \
     fi && \
     # Remove unnecessary stuff to have lightweight Docker Image
