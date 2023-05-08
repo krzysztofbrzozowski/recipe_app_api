@@ -4,6 +4,9 @@ services:
   app:
     build:
       context: .
+      args:
+        # Set development mode when running via docker-compose
+        - DEV=true
     ports:
       - "8000:8000"
     volumes:
