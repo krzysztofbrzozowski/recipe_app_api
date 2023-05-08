@@ -11,3 +11,8 @@ docker build .
 cd home directory (where docker-compose.yml is)
 docker-compose build
 ```
+
+### Run Flake8 linting check
+```
+docker-compose run --rm app sh -c "flake8" 
+```
