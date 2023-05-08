@@ -3,7 +3,7 @@ LABEL maintainer="abobik"
 
 # Don't buffer the output
 # Print Python output directly to the console
-ENV PYTHONBUFFERED 1
+ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
