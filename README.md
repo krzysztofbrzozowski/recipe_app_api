@@ -34,4 +34,4 @@ docker-compose up --build
 docker-compose run --rm app sh -c "python manage.py test" 
 ```
 #### Current CI test status
-![tests](https://github.com/krzysztofbrzozowski/recipe_app_api/actions/workflows/checks.yml/badge.svg)
+![tests](https://github.com/krzysztofbrzozowski/recipe_app_api/actions/workflows/tests.yml/badge.svg)
