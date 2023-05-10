@@ -28,3 +28,8 @@ docker-compose up
 or
 docker-compose up --build
 ```
+
+### Run tests
+```commandline
+docker-compose run --rm app sh -c "python manage.py test" 
+```
