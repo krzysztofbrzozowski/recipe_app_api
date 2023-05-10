@@ -1,5 +1,8 @@
 ## recipe_app_api
 
+## Current CI test status
+![tests](https://github.com/krzysztofbrzozowski/recipe_app_api/actions/workflows/tests.yml/badge.svg)
+
 ### Build docker image
 ```commandline
 cd home directory (where Dockerfile is)
@@ -33,5 +36,3 @@ docker-compose up --build
 ```commandline
 docker-compose run --rm app sh -c "python manage.py test" 
 ```
-#### Current CI test status
-![tests](https://github.com/krzysztofbrzozowski/recipe_app_api/actions/workflows/tests.yml/badge.svg)
